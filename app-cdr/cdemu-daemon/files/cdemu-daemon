@@ -1,0 +1,8 @@
+# how many optical drives to emulate
+#NUM_DEVICES=1
+
+# audio backend (null, default, alsa, or pulse)
+#AUDIO_DRIVER=default
+
+# log file
+#LOG_FILE=/var/log/cdemu-daemon.log

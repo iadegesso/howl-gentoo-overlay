@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>iade.gesso.phd@gmail.com</email>
+    <name>Iade Gesso, PhD</name>
+  </maintainer>
+  <longdescription lang="en">
+    Gentoo automatic kernel building scripts, reloaded (with ebuild carrying small patches to build with busybox 1.32.0 and glibc 2.32)
+  </longdescription>
+  <upstream>
+    <remote-id type="sourceforge">Sabayon/genkernel-next</remote-id>
+    <bugs-to>https://github.com/Sabayon/genkernel-next/issues</bugs-to>
+  </upstream>
+</pkgmetadata>

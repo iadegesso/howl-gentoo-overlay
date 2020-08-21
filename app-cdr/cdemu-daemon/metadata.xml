@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>iade.gesso.phd@gmail.com</email>
+    <name>Iade Gesso, PhD</name>
+  </maintainer>
+  <longdescription lang="en">
+    Daemon of the CDEmu optical media image mounting suite (with systemd unit from Arch Linux and vhda module automatic loading)
+  </longdescription>
+  <upstream>
+    <remote-id type="sourceforge">projects/cdemu</remote-id>
+    <bugs-to>https://sourceforge.net/p/cdemu/bugs/</bugs-to>
+  </upstream>
+</pkgmetadata>
