@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>howl-gentoo-overlay</name>
+      <description lang="en">Iade Gesso, PhD's Custom Gentoo Overlay. Small experimental customizations to ebuilds and some useful but officially discarded package saved from the dead.</description>
+        <homepage>https://github.com/iadegesso/howl-gentoo-overlay/</homepage>
+        <owner type="person">
+            <name>Iade Gesso, PhD</name>
+            <email>iade.gesso.phd@gmail.com</email>
+        </owner>
+        
+
+https://github.com/iadegesso/howl-gentoo-overlay.git
+
+
+        <feed>https://github.com/iadegesso/howl-gentoo-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
