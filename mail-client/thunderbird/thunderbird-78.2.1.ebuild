@@ -236,7 +236,7 @@ pkg_pretend() {
 
 		# Ensure we have enough disk space to compile
 		if use pgo || use lto || use debug || use test ; then
-			CHECKREQS_DISK_BUILD="10G"
+			CHECKREQS_DISK_BUILD="11G"
 		else
 			CHECKREQS_DISK_BUILD="5G"
 		fi
@@ -251,7 +251,7 @@ pkg_setup() {
 	if [[ ${MERGE_TYPE} != binary ]] ; then
 		# Ensure we have enough disk space to compile
 		if use pgo || use lto || use debug || use test ; then
-			CHECKREQS_DISK_BUILD="10G"
+			CHECKREQS_DISK_BUILD="11G"
 		else
 			CHECKREQS_DISK_BUILD="5G"
 		fi
@@ -433,7 +433,7 @@ src_configure() {
 
 	if use pgo ; then
 		if ! has userpriv $FEATURES ; then
-			eerror "Building firefox with USE=pgo and FEATURES=-userpriv is not supported!"
+			eerror "Building thunderbird with USE=pgo and FEATURES=-userpriv is not supported!"
 		fi
 	fi
 
