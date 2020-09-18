@@ -297,6 +297,8 @@ src_prepare() {
 	eapply "${FILESDIR}/1000_fix_gentoo_preferences_78.2.0.patch"
 	popd &>/dev/null || die
 
+        eapply "${FILESDIR}/thunderbird-78.2.2-blank-home.patch"
+
 	# Allow user to apply any additional patches without modifing ebuild
 	eapply_user
 
