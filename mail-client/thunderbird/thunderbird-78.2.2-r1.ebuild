@@ -295,9 +295,8 @@ src_prepare() {
 	eapply "${WORKDIR}/firefox"
 	pushd "${S}"/comm &>/dev/null || die
 	eapply "${FILESDIR}/1000_fix_gentoo_preferences_78.2.0.patch"
-	popd &>/dev/null || die
-
         eapply "${FILESDIR}/thunderbird-78.2.2-blank-home.patch"
+	popd &>/dev/null || die
 
 	# Allow user to apply any additional patches without modifing ebuild
 	eapply_user
