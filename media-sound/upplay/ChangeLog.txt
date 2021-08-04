@@ -1,0 +1,9 @@
+================================================================================
+ CHANGELOG
+================================================================================
+
+ 1.4.9-r1
+--------------------------------------------------------------------------------
+ - Enabled QtWebengine support (added: webengine use flag
+ - Added: support to alternativey net-libs/libnpupnp (Gentoo Repository) or media-libs/libnpupnp (robert7k Overlay) packages
+--------------------------------------------------------------------------------

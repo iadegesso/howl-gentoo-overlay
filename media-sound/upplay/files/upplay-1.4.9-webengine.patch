@@ -1,0 +1,11 @@
+--- upplay.orig/upplay.pro	2021-08-04 11:54:52.804749317 +0200
++++ upplay/upplay.pro	2021-08-04 11:57:01.399582569 +0200
+@@ -5,7 +5,7 @@
+ VERSION = 1.4.9
+ COPYRDATES = 2011-2020
+ 
+-#WEBPLATFORM = webengine
++WEBPLATFORM = webengine
+ contains(WEBPLATFORM, webengine) {
+     QT += widgets webenginewidgets
+     QMAKE_CXXFLAGS += -DUSING_WEBENGINE
