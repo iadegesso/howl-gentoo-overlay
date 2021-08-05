@@ -20,9 +20,12 @@ DEPEND="
 		dev-qt/qtnetwork:5
 		!webengine? ( dev-qt/qtwebkit:5 )
 		webengine? ( dev-qt/qtwebengine:5 )
-		media-libs/libupnpp
 		|| (
-			>=media-libs/libupnpp-0.19.0
+			media-libs/libupnpp
+			net-libs/libupnpp
+		)
+		|| (
+			>=media-libs/libnpupnp-0.19.0
 			>=net-libs/libnpupnp-0.19.0
 		)
 		net-misc/curl"
